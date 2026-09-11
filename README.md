@@ -45,3 +45,5 @@ obs.: Municípios que apresentaram 100% de dependência, mas tiveram baixo fluxo
 * O código é estruturado como um documento Quarto / R Markdown, integrando as narrativas do estudo aos *chunks* de processamento dos microdados do DATASUS (`microdatasus`), agregação das matrizes de fluxo e modelagem cartográfica em alta resolução (`geobr` e `ggplot2`).
 * O primeiro bloco de código foi estruturado para evitar travamentos de memória e dispensar o download manual mês a mês do SIA/DATASUS para o procedimento selecionado (visto que cada competência mensal possui mais de 5 milhões de linhas brutas). A estrutura implementada permite executar o download de forma leve e contínua, realizando uma limpeza e filtragem automáticas das variáveis de interesse durante o processo.
 * Sinta-se livre para rodar linha por linha ou bloco por bloco de código, mas não se esqueça de citar na bibliografia o autor do trabalho, assim como os autores dos respectivos pacotes utilizados ;).
+
+### **Obrigado!**
